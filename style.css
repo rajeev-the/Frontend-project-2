@@ -1,0 +1,201 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body {
+
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+   
+    
+} 
+
+
+.nav  ul   {
+
+    color: white;
+padding: 40px 20px;
+padding-right: 250px;
+padding-left: 250px;
+display: flex;
+list-style-type: none;
+align-items: center;
+justify-content: space-between;
+font-family: Rubik Iso;
+}
+
+.box {
+    
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    border-radius:0px;
+    border: 0px solid rgb(254, 254, 254);
+    width: 120px;
+    height: 45px;
+    transition: ease-in-out  100ms;
+}
+
+
+.box:hover {
+
+    border-radius: 15px;
+    border: 4px solid rgb(254, 254, 254);
+}
+
+
+.play {
+  margin-left: 100px;
+    width: 40%;
+    height: 80%;
+  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-box  {
+ 
+    width: 270px;
+    height: 350px;
+    border-radius:10px ;
+    border: 10px solid #dad7d9f5;
+    
+   
+   
+}
+
+.img-box img {
+
+    height: 100%;
+    width: 100%;
+}
+
+.play input {
+    padding-bottom: 25px;
+    padding-top: 100px;
+    width: 350px;
+    height: 50px;
+   color: white;
+}
+
+.control  {
+
+ display: flex;
+ align-items: center;
+ gap: 50px;
+ 
+}
+.boxx {
+
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border-radius: 14px;
+}
+
+.list  {
+
+    width: 50%;
+    height: 95%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    flex-direction: column;
+
+    padding-bottom: 100px;
+
+    gap: 30px;
+    
+}
+
+
+
+.source {
+
+
+    padding-top: 50px;
+    width: 100%;
+    height: 83%;
+    display: flex;
+
+   
+}
+
+
+
+
+.song-list {
+  
+ font-family: Titillium web ;
+    
+    height: 60px;
+
+
+    border-radius: 15px;
+    width: 500px;
+    background-color: aliceblue;
+    
+  
+}
+
+.song-list img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    left: -50px;
+   
+}
+
+.song-list {
+
+    display: flex;
+   align-items: center;
+    justify-content: space-around;
+
+}
+
+.song-list i {
+
+    position: relative;
+    right: -20px;
+
+   
+
+}
+
+
+.text {
+
+    color: white;
+    padding-top: 20px;
+}
+
+
+
+
+
